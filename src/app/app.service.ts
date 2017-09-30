@@ -6,7 +6,7 @@ import 'rxjs/Rx';
 
 @Injectable()
 export class MyExampleService {
-  private url = 'http://securityadversary-dev.us-west-2.elasticbeanstalk.com/api/test'; 
+  private url = 'https://securityadversary-dev.us-west-2.elasticbeanstalk.com/api/test'; 
 
   constructor(private http: Http) { }
 
